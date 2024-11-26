@@ -8,7 +8,7 @@ The purpose of this script is to facilitate the search for a particular text str
 To use this script, follow the usage instructions below:
 
 ```
-./search.sh <directory> <search_string>
+./recursive_text_search.sh <directory> <search_string>
 ```
 
 ## Parameters:
@@ -23,7 +23,7 @@ To use this script, follow the usage instructions below:
 To search for the string "exampleText" within files in the /path/to/your/directory directory, use the following command
 
 ```
-./search.sh /path/to/your/directory "exampleText"
+./recursive_text_search.sh /path/to/your/directory "exampleText"
 ```
 
 ## Script Description
@@ -41,5 +41,5 @@ The script uses grep for pattern matching, and the search string can include wil
 Ensure the script has execute permissions. You can set the permissions using the following command:
 
 ```
-chmod +x search.sh
+chmod +x recursive_text_search.sh
 ```
